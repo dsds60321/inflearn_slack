@@ -96,7 +96,7 @@ MYSQL_PASSWORD=디비비번
   - npm i @emotion/react @emotion/styled
   - npm i -D @emotion/babel-plugin (웹팩에 babel 설정 추가)
   - 스타일드 컴포넌트로 만들 때 변수를 많이 만드는 셈이므로 & 같은 선택자 적극 활용해야 변수 이름짓기를 최소화할 수 있음.
-14. @layouts/App 작성
+14. @layouts/Index 작성
   - 리액트 라우터 적용하기
   - npm i react-router react-router-dom
   - npm i -D @types/react-router @types/react-router-dom
@@ -127,7 +127,7 @@ MYSQL_PASSWORD=디비비번
   - npm i swr
   - SWR에 fetcher(axios를 사용)를 달아줌.
   - 로그인했음을 증명하기 위해 withCredentials: true 잊으면 안 됨.
-20. @layouts/Workspace 작성
+20. @layouts/Index 작성
   - 눈에 띄는 구역 단위로 스타일드컴포넌트로 만들어둠.
   - 구역 내부의 태그들은 스타일드컴포넌트로 만들면 변수명 지어야 하니 css선택자로 선택
 21. 그라바타
