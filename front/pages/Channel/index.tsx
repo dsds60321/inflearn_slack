@@ -1,7 +1,12 @@
 import React from 'react';
+import { Container, Header } from '@pages/Channel/styles';
 
 const Channel = () => {
-  return <div>Channel</div>;
+  return (
+    <Container>
+      <Header>채널</Header>
+    </Container>
+  );
 };
 
 export default Channel;
